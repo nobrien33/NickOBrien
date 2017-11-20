@@ -14,11 +14,3 @@
     page-break-inside: avoid; /* or 'auto' */
 }
 
-.buttons{
-    position: absolute;
-}
-.btn-group{
-    position: relative;
-    bottom: 0;
-    right: 0;
-}
