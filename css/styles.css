@@ -1,0 +1,15 @@
+
+
+.navbar-default {
+	border: none;
+}
+
+.dropdown-menu {
+    width: 10px !important;
+  
+}
+.img {
+    page-break-before: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    page-break-after: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    page-break-inside: avoid; /* or 'auto' */
+}
