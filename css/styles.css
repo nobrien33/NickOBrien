@@ -14,3 +14,7 @@
     page-break-inside: avoid; /* or 'auto' */
 }
 
+.thumbnail {
+	background-color: rgba(245, 245, 245, 0.6);
+	border: none;
+}
