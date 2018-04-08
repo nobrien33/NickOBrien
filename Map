@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="starwars-glyphicons/css/starwars-glyphicons.css">
+  <title></title>
+</head>
+
+<style>
+body  {
+    background-image: url("images/woodpanel1.JPG");
+    background-color: #cccccc;
+	color: #f5f5f5
+}
+</style>
+<style>
+				dropdown-toggle	{
+					max-width: 100px;
+					background-color: yellow;
+					}
+</style>
+<body>
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" 
+		class="navbar-toggle" 
+		data-toggle="collapse" 
+		data-target="#myNavbar">
+		<span class="sr-only">toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a href="index.html" class="navbar-brand navbar-left" href="#">Nick O'Brien Design+Carto</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        			<li>
+					<a href="Projects.html" classes="dropdown-toggle"
+					data-toggle="dropdown" role="button"
+					aria-haspopup="true" 
+					aria-expanded="false">+projects
+					<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+					
+					<li><a href="Projects.html">portfolio</a><li>
+					<li><a href="images/lassen3.png" target="_blank">lassen</a></li>
+					<li><a href="images/crater_lake2.png" target="_blank">crater lake</a></li>
+					<li><a href="images/lake_uvs_2.png" target="_blank">lake uvs</a></li>
+          <li><a>Interactive Map</a></li>
+					</ul>
+				</li>
+				<li><a href="About.html" classes="dropdown-toggle"
+					data-toggle="dropdown" role="button"
+					aria-haspopup="true" 
+					aria-expanded="false">about
+					<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+					
+					<li><a href="About.html"><span class="glyphicon glyphicon-user"></span>  bio</a><li>
+					<li><a href="mailto:nobrien2@wisc.edu"><span class="glyphicon glyphicon-envelope"></span>  email</a></li>
+					<li><a href="images/NOBrien_Resume.pdf" target="_blank"><span class="glyphicon glyphicon-file"></span>  resume</a></li>
+					</ul>
+				<li>
+					<a href="#" classes="dropdown-toggle"
+					data-toggle="dropdown" role="button"
+					aria-haspopup="true"
+					aria-expanded="false">social
+					<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+					<li><a href="https://www.instagram.com/nobrien33/?hl=en" target="_blank">
+							<i class="fa fa-instagram" style="font-size:24px"></i>
+						</a>
+					</li>
+					<li><a href="https://twitter.com/nobrien33" target="_blank">
+							<i class="fa fa-twitter" style="font-size:24px"></i>
+						</a>
+					</li>
+					<li><a href="https://www.linkedin.com/in/nick-o-brien-5b5b2b69/" target="_blank">
+							<i class="fa fa-linkedin-square" style="font-size:24px"></i>
+						</a>
+					</li>
+					</ul>
+					<li>
+					<a href="#" classes="dropdown-toggle"
+					data-toggle="dropdown" role="button"
+					aria-haspopup="true"
+					aria-expanded="false">associations
+					<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+					<li><a href="https://www.linkedin.com/groups/3784690" target="_blank">
+							mn gis/lis
+						</a>
+					</li>
+					<li><a href="https://www.wlia.org" target="_blank">
+							wlia
+						</a>
+					</li>
+					<li><a href="https://www.uwrf.edu/GEOG/" target="_blank">
+							uwrf
+						</a>
+					</li>
+					<li><a href="https://geography.wisc.edu/" target="_blank">
+							uw-madison
+						</a>
+					</li>
+					</ul>
+						
+					
+				
+				<li><a href="images/vader.gif" target="_blank"><i class="swg swg-galemp swg-lg"></i></i></a></li>
+				</li>
+	
+				
+      </ul>
+		
+    </div>
+  </div>
+</nav>
+
+
+<div class="content container">
+	<div class="row">
+		<div class="col-xs-12">
+		
+
+
+
+
+
+<h1></h1>
+<center>
+	<a href="Projects.html"><img src="images/Logo_white.png" alt="company logo" align="middle"></a>
+<h2>smart/elegant/design</h2>
+	
+	<p style="padding-top: 0.25cm">“Maps codify the miracle of existence.” 
+― Nicholas Crane, Mercator: The Man Who Mapped the Planet </p>
+
+</center>
+
+</div>
+
+</div>
+</div>
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
