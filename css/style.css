@@ -45,7 +45,7 @@
 
 .dropdown {
     position: absolute;
-    top: 70px;
+    top: 150px;
     left: 40px;
     z-index: 10;
     font-family: sans-serif;
