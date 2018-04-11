@@ -73,12 +73,12 @@ option {
 
 
 .chartBackground {
-    fill: rgba(128,128,128,.2);
+    fill: none;
 }
 
 .chartFrame {
     fill: none;
-    stroke: #999;
+    stroke: none;
     stroke-width: 3px;
     shape-rendering: crispEdges;
 }
