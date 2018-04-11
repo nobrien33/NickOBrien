@@ -30,7 +30,7 @@ function setMap(){
 	
 	
 	//map frame dimensions
-	var width = window.innerWidth * 0.5,
+	var width = window.innerWidth * 0.425,
         height = 460;
 
     //create new svg container for the map
