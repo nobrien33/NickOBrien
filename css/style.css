@@ -101,9 +101,9 @@ option {
     position: absolute;
     height: 50px;
     min-width: 100px;
-    color: #fff;
-    background-color: rgba(128,128,128,.2);
-    border: solid thin #fff;
+    color: whitesmoke;
+    background-color: rgba(128,128,128,.9);
+    border: solid thin #000;
     padding: 5px 10px;
     top: -75px;
 }
