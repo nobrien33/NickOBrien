@@ -42,7 +42,7 @@ function setMap(){
 
     //create Albers equal area conic projection centered on France
     var projection = d3.geoAlbers()
-        .center([-22.00, 47.24])
+        .center([-28.00, 47.24])
         .rotate([-33.55, -4.55, 0])
         .parallels([0.00, 40.25])
         .scale(780)
