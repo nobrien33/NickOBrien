@@ -449,7 +449,7 @@ function setLabel(props){
 
     var regionName = infolabel.append("div")
         .attr("class", "labelname")
-        .html(props.name);
+        .html(props.COUNTRY);
 };
     
 //Example 2.8 line 1...function to move info label with mouse
