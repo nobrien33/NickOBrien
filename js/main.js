@@ -6,7 +6,7 @@ var expressed = attrArray[1];
     
 //chart frame dimensions
 var chartWidth = window.innerWidth * 0.425,
-    chartHeight = 460,
+    chartHeight = 480,
     leftPadding = 30,
     rightPadding = 2,
     topBottomPadding = 5,
@@ -31,7 +31,7 @@ function setMap(){
 	
 	//map frame dimensions
 	var width = window.innerWidth * 0.425,
-        height = 460;
+        height = 480;
 
     //create new svg container for the map
     var map = d3.select("body")
