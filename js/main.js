@@ -268,7 +268,7 @@ function setChart(csvData, colorScale){
         .attr("x", 70)
         .attr("y", 40)
         .attr("class", "chartTitle")
-        .text("Number of " + expressed + " immigrants in each region");
+        .text("Number of " + expressed + " immigrants in each country");
 
 
     //create vertical axis generator
@@ -314,7 +314,7 @@ function updateChart(bars, n, colorScale){
             return choropleth(d, colorScale);
         })
     var chartTitle = d3.select(".chartTitle")
-    .text("Number of " + expressed + " immigrants in each region");
+    .text("Number of " + expressed + " immigrants in each country");
 
     
      
