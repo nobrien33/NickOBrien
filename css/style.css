@@ -99,7 +99,7 @@ option {
 
 .infolabel {
     position: absolute;
-    height: 50px;
+    height: 65px;
     min-width: 100px;
     color: whitesmoke;
     background-color: rgba(128,128,128,.9);
