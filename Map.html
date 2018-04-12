@@ -33,22 +33,7 @@ body  {
   left: 10px;
   
 }
-div.row {
-    
-    position: relative;
-    padding: 5px;
-    
-    width: 200px;
-    height: 200px;
-    border: 3px solid whitesmoke;
-    background-color: rgba(128,128,128,.2);
-}
-.bottom-align-text{
-	position: absolute;
-    	bottom: 0;
-    	right: 0;
-  
-}
+
 </style>
 <style>
 				dropdown-toggle	{
@@ -56,8 +41,24 @@ div.row {
 					background-color: yellow;
 					}
 
+
+    
+div.absolute {
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    left: 17px;
+    padding: 5px;
+    bottom: 10px;
+    border: 3px solid whitesmoke;
+    background-color: rgba(128,128,128,.2);
+}     
+    
 	
 </style>
+    
+ 
+    
 <body>
 
 
@@ -177,10 +178,16 @@ div.row {
 </div>
 		
 
-<div class="row">
-	<div class="bottom-align-text"> Note: The individual values do not add up to the total due to rounding and the exclusion of the 'unknown' 
-	citizenship group from the table.</div>
-</div>
+
+	<div class="absolute">
+        <p>2016 saw the largest mass migration of displaced people and refugees since World War II. Europe has struggled to process the large influx of people
+and has ignited political divide amongst the nstive population. This map shows where in Europe the migrants settled and where they originated from.</p>
+        <p>The Data: A total of 4.3 million people immigrated to one of the EU-28 Member States during 2016, while at least 3.0 million emigrants were reported to have left an EU Member State. These total figures do not represent the migration flows to/from the EU as a whole, since they also include flows between different EU Member States.</p>
+        <p>Note: The individual values do not add up to the total due to rounding and the exclusion of the 'unknown' 
+            citizenship group from the table.</p>
+        <p>Source: Eurostat (online data code: migr_imm3ctb)</p>
+    </div>
+
 
 
 
